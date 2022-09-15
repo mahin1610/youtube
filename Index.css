@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar::before{
+    content: '\f0c9';
+    font-family: 'font awesome 5 free';
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 70px;
+    font-size: 25px;
+    
+    
+}
+.nav-bar p{
+font-size: 30px;
+   
+margin-top: 12px;
+
+}
+
+
+
+.nav-bar{
+  
+    width: 100%;
+    display: flex;
+    height: 60px;
+    border: 1px solid black;
+    position: fixed;
+}
+.input{
+    height: 40px;
+    width: 500px;
+    margin-top: 10px;
+    position: absolute;
+    right: 400px;
+   
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+   transition-property: width;
+   transition-duration: 0.001s;
+  
+   
+    
+}
+
+.input:focus{
+    width: 535px;
+    background-image: url("img/search.png");
+    background-repeat: no-repeat;
+    background-position: 6px 4px;
+    background-size: 30px;
+    padding-left: 50px;
+}
+
+
+
+
+
+button{
+    background-image: url("img/search.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+   background-position: 13px;
+    width: 60px;
+    height: 40px;
+    margin-top: 10px;
+    position: absolute;
+    right: 350px;
+    background-color: white;
+}
+
+
+
+
+
+   
+
+.nav-bar{
+    background-image: url("img/youtube.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: 80px;
+   
+}
+
+.div1{
+    background-image: url("img/microphone.png");
+    background-repeat: no-repeat;
+    background-position:  10px 15px;
+    background-size: 28px;
+    height: 50px ;
+    width: 40px;
+    position: absolute;
+    right: 310px;
+    
+}
+
+.div2{
+    background-image: url("img/videoplus.png");
+    background-repeat: no-repeat;
+    background-position: 30px 15px;
+    background-size: 28px;
+    height: 50px ;
+    width: 60px;  
+    position: absolute;
+    right: 130px;
+}
+.div3{
+    background-image: url("img/bell.png");
+    background-repeat: no-repeat;
+    background-position: 20px 15px;
+    background-size: 28px;
+    height: 50px ;
+    width: 40px;
+    position: absolute;
+    right: 90px;
+}
+
+.div4{
+    background-image: url("img/ticon.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 0 4px;
+    height: 30px ;
+    width: 30px;
+    position: absolute;
+    right: 30px;
+    top: 14px;  
+}
+
+
+.aside{
+    display: block;
+    border: 1px solid black;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 62px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    overflow: scroll;
+ 
+
+
+}
+
+.aside div{
+    margin: 15px;
+    
+}
+
+
+    
+.home{
+    background-image: url("img/home.png");
+    background-repeat: no-repeat;
+    background-position: 10px 0px;
+    background-size: 25px;
+    background-position: 20px;
+    
+}
+
+
+
+
+.explore{
+
+    background-image: url("img/explore.png");
+    background-repeat: no-repeat;
+   
+    background-size: 25px;
+    background-position: 20px;
+}
+
+.shorts{
+    background-image: url("img/shorts.png");
+    background-repeat: no-repeat;
+    background-position: 10px 0px;
+    background-size: 25px;
+    background-position: 20px;
+
+}
+
+.sub{
+    background-image: url("img/sub.png");
+    background-repeat: no-repeat;
+    
+    background-size: 25px;
+    
+
+}
+
+.libray{
+    background-image: url("img/libray.png");
+    background-repeat: no-repeat;
+    background-position: 10px 0px;
+    background-size: 25px;
+   
+}
+
+.history{
+
+    background-image: url("img/history.png");
+    background-repeat: no-repeat;
+    background-position: 10px 0px;
+    background-size: 25px;
+    width: 140px;
+    
+}
+
+.video{
+    background-image: url("img/youtube2.png");
+    background-repeat: no-repeat;
+    
+    background-position: 10px 0px;
+    background-size: 25px;
+    color: black;
+   
+
+}
+
+.watch{
+
+    background-image: url("img/watch.png");
+    background-repeat: no-repeat;
+    background-position: 10px 0px;
+    background-size: 25px;
+    color: black;
+ 
+}
+
+.like{
+
+    background-image: url("img/like.png");
+    background-repeat: no-repeat;
+    
+    background-size: 20px;
+    width: 170px;
+    
+   
+}
+
+.maindiv{
+    height: 100vh;
+    width: 60%;
+    position: absolute;
+    left: 205px;
+}
+
+.maindiv1{
+    height: 270px ;
+    width: 290px;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 10px;
+   
+
+}
+.image{
+    height: 100px ;
+    width: 100%;
+}
+
+.maindiv2{
+    height: 270px ;
+    width: 290px;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+
+
+
+.maindiv3{
+    height: 270px ;
+    width: 290px;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 700px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+
+
+.maindiv4{
+    height: 270px ;
+    width: 290px;
+    border: 2px solid black;
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+
+
+
+.maindiv5{
+    height: 270px ;
+    width: 290px;
+    border: 2px solid black;
+    position: absolute;
+    top: 400px;
+    left: 350px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+
+
+.maindiv6{
+    height: 270px ;
+    width: 290px;
+    border: 2px solid black;
+    position: absolute;
+    top: 400px;
+    left: 700px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
